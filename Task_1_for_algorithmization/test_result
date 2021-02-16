@@ -1,0 +1,21 @@
+Enter the size of new stack: 7
+Hi! The stack whith size 7 element(s) was created.
+The capacity of stack is 7 element(s).
+The size of stack is 7 element(s).
+Element 7 is: 11
+Element 6 is: 12
+Element 5 is: 13
+Element 4 is: 14
+Element 3 is: 15
+Element 2 is: 16
+Element 1 is: 17
+Entre new size of stack: 30
+The capacity of stack is 5 element(s).
+The size of stack is 30 element(s).
+Element 5 is: 1
+Element 4 is: 3
+Element 3 is: 7
+Element 2 is: 15
+Element 1 is: 30
+Bye!
+Press <RETURN> to close this window...
