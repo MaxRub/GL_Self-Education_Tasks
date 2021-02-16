@@ -20,7 +20,7 @@ int main()
         A.pop(n);
         std::cout << " is: " << n << std::endl;
     }
-    std::cout << "Entre new size of stack: ";
+    std::cout << "Enter new size of stack: ";
     std::cin >> n;
     A._resize(n);
     for(int i = n; i > 0; )
