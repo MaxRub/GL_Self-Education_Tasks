@@ -1,0 +1,21 @@
+Enter the number element of Fibonacci number: 5
+The sum of first 5 element of Fibonacci number: 12
+Please, next number: 10
+The sum of first 10 element of Fibonacci number: 143
+Please, next number: 15
+The sum of first 15 element of Fibonacci number: 1596
+Please, next number: 20
+The sum of first 20 element of Fibonacci number: 17710
+Please, next number: 25
+The sum of first 25 element of Fibonacci number: 196417
+Please, next number: 30
+The sum of first 30 element of Fibonacci number: 2178308
+Please, next number: 35
+The sum of first 35 element of Fibonacci number: 24157816
+Please, next number: 40
+The sum of first 40 element of Fibonacci number: 267914295
+Please, next number: 45
+The sum of first 45 element of Fibonacci number: 2971215072
+Please, next number: q
+Bye!
+Press <RETURN> to close this window...
