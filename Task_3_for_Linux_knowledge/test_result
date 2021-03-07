@@ -1,23 +1,17 @@
 maxim@maxim-HP-255:~$ uname
 Linux
-maxim@maxim-HP-255:~$ /home/maxim/a/Task_3_for_Linux_knowledge /home/maxim/a/F
-4 files in folder /home/maxim/a/F
-"/home/maxim/a/F/b"
-"/home/maxim/a/F/c"
-"/home/maxim/a/F/d"
-"/home/maxim/a/F/a"
- Hi!
-maxim@maxim-HP-255:~$ /home/maxim/a/Task_3_for_Linux_knowledge /home/maxim/Downloads
-8 files in folder /home/maxim/Downloads
-"/home/maxim/Downloads/Резюме — Trainee_Junior C++ Developer, Максим Рубан.docx"
-"/home/maxim/Downloads/avidreaders.ru__naibolee-effektivnoe-ispolzovanie-c-35-novyh.djvu.zip"
-"/home/maxim/Downloads/C_C++ Developer_(Odessa)_VacanciesDescription_22-06-2017.docx"
-"/home/maxim/Downloads/rse-pmt.ps"
-"/home/maxim/Downloads/avidreaders.ru__effektivnoe-ispolzovanie-stl.djvu.zip"
-"/home/maxim/Downloads/cost__return.pdf"
-"/home/maxim/Downloads/avidreaders.ru__windows-dlya-professionalov-sozdanie-effektivnyh-win32.pdf.zip"
-"/home/maxim/Downloads/qt-unified-linux-x64-4.0.1-1-online.run"
- Hi!
 maxim@maxim-HP-255:~$ /home/maxim/a/Task_3_for_Linux_knowledge
 Usage: /home/maxim/a/Task_3_for_Linux_knowledge no folder specified!
+maxim@maxim-HP-255:~$ /home/maxim/a/Task_3_for_Linux_knowledge /home/maxim/NON
+/home/maxim/NON/home/maxim/NON no existing directory
+ no existing directory
+maxim@maxim-HP-255:~$ /home/maxim/a/Task_3_for_Linux_knowledge /home/maxim/a/F
+6 files in folder /home/maxim/a/F/home/maxim/a/F/
+b
+/home/maxim/a/F/c
+/home/maxim/a/F/d
+/home/maxim/a/F/a
+/home/maxim/a/F/..
+/home/maxim/a/F/.
+ Hi!
 maxim@maxim-HP-255:~$
