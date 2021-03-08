@@ -7,4 +7,5 @@ SOURCES += \
         main.cpp
 
 DISTFILES += \
+    sources \
     test_result

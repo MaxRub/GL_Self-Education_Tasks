@@ -1,18 +1,18 @@
 //stack.h -- defining the stack class
 #ifndef STACK_H
 #define STACK_H
-
+#include <memory>
 //using array
 typedef int Item;
 
 class Stack
 {
 private:
-    Item * items;           //pointer to array of elements int
-    int top;                //index the top of stack
-    int size;               //maximum emount of elements
+    std::unique_ptr<Item []> items;     //smart pointer to array of elements int
+    int top;                            //index the top of stack
+    int size;                           //maximum emount of elements
 public:
-    Stack(int n);           //cteate stack with number of elements
+    Stack(int n = 0);                   //cteate stack with number of elements
     ~Stack();
     bool isempty() const;
     bool isfull() const;

@@ -11,4 +11,5 @@ HEADERS += \
     stack.h
 
 DISTFILES += \
+    sources \
     test_result

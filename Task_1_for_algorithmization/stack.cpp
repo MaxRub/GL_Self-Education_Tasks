@@ -2,17 +2,16 @@
 #include <iostream>
 #include "stack.h"
 
-Stack::Stack(int n = 0)         //create empry stack
+Stack::Stack(int n)         //create empry stack
 {
     top = 0;
     size = n;
-    items = new Item[n];
+    items = std::unique_ptr<Item []>(new Item(n));
     std::cout << "Hi! The stack whith size " << n
               << " element(s) was created." << std::endl;
 }
 Stack::~Stack()
 {
-    delete [] items;
     std::cout << "Bye!" << std::endl;
 }
 
@@ -30,7 +29,7 @@ bool Stack::push(const Item & item)
 {
     if(top < size)
     {
-        *(items + (top++)) = item;
+        items[top++] = item;
         return true;
     }
     else {
@@ -42,7 +41,7 @@ bool Stack::pop(Item & item)
 {
     if(top > 0)
     {
-        item = *(items + (--top));
+        item = items[--top];
         return true;
     }
     else {
@@ -64,18 +63,11 @@ bool Stack::_resize(int n)
 {
     if(n > top)
     {
-        Item * temp = new Item[n];
-        for(int i = 0; i < top; i++)
-        {
-            *(temp + i) = *(items + i);
-        }
-        delete [] items;
-        items = temp;
         size = n;
         return true;
     }
     else {
-        std::cout << "Dlete " << top - n << " element(s).\n";
+        std::cout << "Delete " << top - n << " element(s).\n";
         return false;
     }
 }

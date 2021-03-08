@@ -1,0 +1,8 @@
+[1] http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
+[2] Prata, Stephen. С++ Primer Plus, Sixth Edition, Addison-Wesley Professional,
+2011. ISBN 978-0321776402
+[3] https://en.cppreference.com/w/cpp/filesystem
+[4] https://en.cppreference.com/w/cpp/thread
+[5] https://www.firststeps.ru/linux/r.php?20
+[6] https://stackoverflow.com/questions/16257564/linker-error-undefined-reference-to-symbol-pthread-rwlock-trywrlockglibc-2-2
+[7] https://en.cppreference.com/w/cpp/filesystem/directory_iterator
